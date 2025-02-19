@@ -1,0 +1,22 @@
+{
+  "name": "weather-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node weather.js",
+    "server": "nodemon weather.js"
+  },
+  "keywords": [],
+  "author": "Idongesit Samuel",
+  "license": "ISC",
+  "description": "Weather Api with Third Party Api and Redis for caching",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7",
+    "redis": "^4.7.0"
+  }
+}
